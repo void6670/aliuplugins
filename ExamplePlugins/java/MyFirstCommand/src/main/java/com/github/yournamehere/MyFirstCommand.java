@@ -1,4 +1,4 @@
-package com.github.yournamehere;
+package com.github.void6670;
 
 import android.content.Context;
 import com.aliucord.Utils;
@@ -10,7 +10,7 @@ import com.discord.api.commands.ApplicationCommandType;
 import java.util.Arrays;
 
 // Aliucord Plugin annotation. Must be present on the main class of your plugin
-@AliucordPlugin(requiresRestart = false /* Whether your plugin requires a restart after being installed/updated */)
+@AliucordPlugin(requiresRestart = true /* Whether your plugin requires a restart after being installed/updated */)
 // Plugin class. Must extend Plugin and override start and stop
 // Learn more: https://github.com/Aliucord/documentation/blob/main/plugin-dev/1_introduction.md#basic-plugin-structure
 public class MyFirstCommand extends Plugin {
